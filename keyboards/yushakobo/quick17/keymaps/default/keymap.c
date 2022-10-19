@@ -14,6 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
+#include "quick17_prefs.h"
 
 // Defines the keycodes used by our macros in process_record_user
 enum custom_keycodes {
@@ -39,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         [_FN] = LAYOUT(
         KC_ESC, KC_LANG,KC_NO,  RGB_TOG,KC_MNXT,KC_VOLU,
         KC_CAPS,KC_NLCK,KC_NO,  RGB_MOD,KC_MPRV,KC_VOLD,
-        CG_NORM,LCG_SWP,EEP_RST,RESET,  TO(0),  KC_MUTE
+        CG_NORM,LCG_SWP,EEP_RST,QK_BOOT,  TO(0),  KC_MUTE
     )
 };
 
