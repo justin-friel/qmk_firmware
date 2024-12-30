@@ -16,6 +16,9 @@
 
 #pragma once
 
+/* Allow more than 4 layers */
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+
 /* turn off effects when suspended */
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
 #define LED_DISABLE_WHEN_USB_SUSPENDED
