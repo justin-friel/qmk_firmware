@@ -12,7 +12,7 @@ Q4 Version 1 uses only 2 ICs for CKLED2001 and Q4 Version 2 uses only one IC.
 
 Make example for this keyboard (after setting up your build environment):
 
-    make keychron/q4/ansi/v1:default
+    make keychron/q4/ansi/ :default
     make keychron/q4/ansi/v2:default
     make keychron/q4/iso:default
 
