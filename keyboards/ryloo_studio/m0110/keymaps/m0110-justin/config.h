@@ -1,4 +1,4 @@
-/* Copyright 2020 Justin Friel
+/* Copyright 2025 Justin Friel
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -13,8 +13,6 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-
-#define RGB_AMBER 0xFF, 0xCC, 0x00
 
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
@@ -31,8 +29,6 @@
 
 #define RGB_DI_PIN E2
 #ifdef RGB_DI_PIN
-    #define RGBLIGHT_LAYERS
-    #undef RGBLED_NUM
 
     #ifdef RGBLIGHT_LED_COUNT
         #undef RGBLIGHT_LED_COUNT

@@ -1,5 +1,5 @@
 /*
-Copyright 2020 newtonapple
+Copyright 2025 Justin Friel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -48,18 +48,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX,  XXXXXXX,  XXXXXXX,  UNUSED,                       XXXXXXX,  UNUSED,             XXXXXXX,  XXXXXXX,  UNUSED,   XXXXXXX,  XXXXXXX) 
 }; 
 
-
-/*
-// Light LEDs  in cyan when keyboard layer 0 is active
-const rgblight_segment_t PROGMEM base_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 4, HSV_GREEN}
-);
-// Light LEDs 11 & 12 in purple when keyboard layer 2 is active
-const rgblight_segment_t PROGMEM fn_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {11, 2, HSV_PURPLE}
-);
-// Light LEDs 13 & 14 in green when keyboard layer 3 is active
-const rgblight_segment_t PROGMEM hwfn_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {13, 2, HSV_RED}
-);
-*/
